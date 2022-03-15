@@ -17,12 +17,13 @@ gem 'jbuilder',                   '2.10.0'
 gem 'bootsnap',                   '1.7.2', require: false
 gem 'factory_bot',                '6.1.0'
 gem 'factory_bot_rails',          '6.1.0'
+gem 'pg',                         '1.2.3'
 group :development, :test do
   # gem 'debase'
   # gem 'ruby-debug-ide'
   gem 'rspec-rails',        '5.0.1'
   gem 'simplecov',          '0.21.2'
-  gem 'sqlite3',            '1.4.2'
+  # gem 'sqlite3',            '1.4.2'
   gem 'byebug',             '11.1.3', platforms: [:mri, :mingw, :x64_mingw]
 end
 group :development do
