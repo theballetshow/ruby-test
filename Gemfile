@@ -42,7 +42,7 @@ group :test do
   gem 'guard-minitest',           '2.4.6'
 end
 group :production do
-  gem 'pg', '1.2.3'
+  #gem 'pg', '1.2.3'
   gem 'rails_12factor', '0.0.2'
   gem 'aws-sdk-s3', '1.87.0'
 end
